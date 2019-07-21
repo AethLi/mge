@@ -57,7 +57,7 @@ public class Page implements Serializable {
 	/**
 	 * @param begin
 	 * @param length
-	 * @param count
+	 * @param totalRecords
 	 */
 	public Page(int begin, int length, int totalRecords) {
 		this(begin, length);

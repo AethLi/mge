@@ -176,8 +176,9 @@ public class GeneratorConfigXMLUtil {
 	 * 源文件:  src/main/resources/generatorConfig.xml<p>
 	 * 生成文件: src/main/resources/generatorConfigBak.xml<p>
 	 * 
-	 * @param dbName 数据库名称
+	 * @param tableNames 数据库名称
 	 * @param dbType 数据库类型 (支持mysql和oracle) 默认为"mysql"
+	 * todo find out dbType
      * @throws NoSuchMethodException 
      * @throws InvocationTargetException 
      * @throws InstantiationException 
