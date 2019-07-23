@@ -15,7 +15,7 @@ import java.util.List;
  * 多数据源sql语句编写(支持oracle和mysql)
  * 
  * 传入page对象和databaseId
- * @author wyy
+ *
  *
  */
 public class MutiDatasourcePaginationPlugin extends PluginAdapter {

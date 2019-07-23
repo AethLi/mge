@@ -26,7 +26,7 @@ import java.util.regex.Pattern;
  * 基础包名在mybatis-generator.properties配置文件里面
  * ORIGIN_CONFIG为基础配置xml文件 生成的xml文件是以他有模板的
  *
- * @author wyy
+ *
  */
 public class MybatisGenerator {
     public static final String ORIGIN_CONFIG = "generatorConfig.xml";

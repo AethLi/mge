@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 逻辑删除
  * 不删除数据 设置DELETE_FLAG为删除状态
- * @author wyy
+ *
  *
  */
 public class DeleteLogicByIdsPlugin extends PluginAdapter {
