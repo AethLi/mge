@@ -31,7 +31,8 @@ import java.util.regex.Pattern;
 public class MybatisGenerator {
     public static final String ORIGIN_CONFIG = "generatorConfig.xml";
     public static final String OUT_CONFIG = "generatorConfigBak.xml";
-    public static final String CONFIG_GENERATOR = "jdbc.properties";//"mybatis-generator.properties";
+//    public static final String CONFIG_GENERATOR = "jdbc.properties";
+    public static final String CONFIG_GENERATOR = "mybatis-generator.properties";
     public static final List<String> BASE_PREFIX = Lists.newArrayList("rp_", "pms_", "sys_");//也就是包名
 
     public static final Properties PROPERTIES = new Properties();
