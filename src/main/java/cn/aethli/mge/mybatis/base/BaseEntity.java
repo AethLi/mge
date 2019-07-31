@@ -90,17 +90,4 @@ public class BaseEntity implements Serializable, IDynamicTableName {
     public void setDynamicTableName(String dynamicTableName) {
         this.dynamicTableName = dynamicTableName;
     }
-
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(",id=").append(id);
-        sb.append(",deleteFlag=").append(deleteFlag);
-        sb.append(",createTime=").append(createTime);
-        sb.append(",updateTime=").append(updateTime);
-        sb.append(",dynamicTableName=").append(dynamicTableName);
-        return sb.toString();
-    }
-
-
 }

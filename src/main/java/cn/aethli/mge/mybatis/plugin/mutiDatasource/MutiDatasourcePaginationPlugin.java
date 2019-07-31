@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class MutiDatasourcePaginationPlugin extends PluginAdapter {
 
-	private static final String PAGE_CLASS = "com.ssf.common.vo.mybatis.pagination.Page";
+	private static final String PAGE_CLASS = "cn.aethli.mge.vo.mybatis.pagination.Page";
 	
 	@Override
 	public boolean modelExampleClassGenerated(TopLevelClass topLevelClass,
