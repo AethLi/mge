@@ -15,10 +15,6 @@ import java.util.List;
  */
 
 public class MyInsertUpdateDynamicTableNamePlugin extends PluginAdapter {
-
-	/**
-	 * {@inheritDoc}
-	 */
 	@Override
 	public boolean validate(List<String> warnings) {
 		return true;

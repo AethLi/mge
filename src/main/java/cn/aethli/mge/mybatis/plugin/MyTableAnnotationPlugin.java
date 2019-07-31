@@ -32,8 +32,6 @@ public class MyTableAnnotationPlugin extends PluginAdapter {
 	 * @param introspectedTable
 	 */
 	private void processEntityClass(TopLevelClass topLevelClass, IntrospectedTable introspectedTable) {
-		// 引入JPA注解
-		//topLevelClass.addImportedType("com.ssf.common.mybatis.annotation.*");
 		String tableName = introspectedTable.getFullyQualifiedTableNameAtRuntime();
 		String tableAliasName = introspectedTable.getAliasedFullyQualifiedTableNameAtRuntime();
 		String namespaceStr = introspectedTable.getMyBatis3SqlMapNamespace();
@@ -41,12 +39,7 @@ public class MyTableAnnotationPlugin extends PluginAdapter {
 		if (StringUtility.stringContainsSpace(tableName)) {
 			tableName = context.getBeginningDelimiter() + tableName + context.getEndingDelimiter();
 		}
-		//System.out.println(tableName+","+tableAliasName+","+namespaceStr);
-		
-//		topLevelClass.addAnnotation("@MyBatisTableAnnotation(name = \"" + tableName + "\", "
-//				+ "namespace = \"" + namespaceStr + "\", "
-//				+ "remarks = \"" + " 修改点 " + "\", "
-//				+ "aliasName = \"" + tableAliasName + "\" )");
+		System.out.println(tableName+","+tableAliasName+","+namespaceStr);
 	}
 
 	@Override

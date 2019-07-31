@@ -11,20 +11,21 @@ import java.util.List;
  * 强制覆盖xml文件(注意这样每次都会生成新的mapper.xml会覆盖掉你编写的部分)
  * 利用反射设置isMergeable为false
  */
-public class OverIsMergeablePlugin extends PluginAdapter{
-	@Override
-	public boolean validate(List warnings) {
-		return true;
-	}
-	@Override
-	public boolean sqlMapGenerated(GeneratedXmlFile sqlMap, IntrospectedTable introspectedTable) {
-		try {
-			Field field = sqlMap.getClass().getDeclaredField("isMergeable");
-			field.setAccessible(true);
-			field.setBoolean(sqlMap, false);
-		} catch (Exception e) {
-		e.printStackTrace();
-		}
-		return true;
-	}
+public class OverIsMergeablePlugin extends PluginAdapter {
+    @Override
+    public boolean validate(List warnings) {
+        return true;
+    }
+
+    @Override
+    public boolean sqlMapGenerated(GeneratedXmlFile sqlMap, IntrospectedTable introspectedTable) {
+        try {
+            Field field = sqlMap.getClass().getDeclaredField("isMergeable");
+            field.setAccessible(true);
+            field.setBoolean(sqlMap, false);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return true;
+    }
 }
