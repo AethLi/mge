@@ -26,6 +26,8 @@ import java.util.List;
 		student.CREATE_TIME as student_CREATE_TIME,
 		student.MODIFY_TIME as student_MODIFY_TIME
 	</sql>
+ * @author alexgaoyh
+ *
  */
 public class AddColumnCheckToBaseColumnListPlugin extends PluginAdapter {
 	public boolean validate(List<String> arg0) {

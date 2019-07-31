@@ -1,22 +1,27 @@
 /**
- * File : IDynamicTableName.java
- * Author : lenovo
- * Version : 1.1
- * Date : 2017年1月10日
- * Modify :
- * Package Name : com.zhongpin.zp.persist.base.entity
- * Project Name : zp-persist-base
- * Description :
+ * File : IDynamicTableName.java <br/>
+ * Author : lenovo <br/>
+ * Version : 1.1 <br/>
+ * Date : 2017年1月10日 <br/>
+ * Modify : <br/>
+ * Package Name : com.zhongpin.zp.persist.base.entity <br/>
+ * Project Name : zp-persist-base <br/>
+ * Description : <br/>
  * 
  */
 
 package cn.aethli.mge.mybatis.base;
 
 /**
- * ClassName : IDynamicTableName
- * Function : Mybatis 动态表名处理.
- * Reason : Mybatis 动态表名处理.
- * Date : 2017年1月10日 上午11:06:47
+ * ClassName : IDynamicTableName <br/>
+ * Function : Mybatis 动态表名处理.  <br/>
+ * Reason : Mybatis 动态表名处理.  <br/>
+ * Date : 2017年1月10日 上午11:06:47 <br/>
+ * 
+ * @author : wang <br/>
+ * @version : 1.1 <br/>
+ * @since : JDK 1.6 <br/>
+ * @see
  */
 
 public interface IDynamicTableName {
