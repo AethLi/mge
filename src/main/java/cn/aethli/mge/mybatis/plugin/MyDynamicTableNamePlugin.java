@@ -1,15 +1,3 @@
-/**
- * File : MyDynamicTableNamePlugin.java <br/>
- * Author : alexgaoyh <br/>
- * Version : 1.1 <br/>
- * Date : 2017年1月12日 <br/>
- * Modify : <br/>
- * Package Name : com.zhongpin.zp.common.mybatis.plugin <br/>
- * Project Name : zp-common <br/>
- * Description : <br/>
- * 
- */
-
 package cn.aethli.mge.mybatis.plugin;
 
 import org.mybatis.generator.api.IntrospectedTable;
@@ -27,15 +15,9 @@ import org.mybatis.generator.codegen.mybatis3.MyBatis3FormattingUtilities;
 import java.util.List;
 
 /**
- * ClassName : MyDynamicTableNamePlugin <br/>
- * Function : 动态表名的问题，生成可操作表名的方法. <br/>
- * Reason : 动态表名的问题，生成可操作表名的方法. <br/>
- * Date : 2017年1月12日 上午9:32:03 <br/>
- * 
- * @author : alexgaoyh <br/>
- * @version : 1.1 <br/>
- * @since : JDK 1.6 <br/>
- * @see
+ * ClassName : MyDynamicTableNamePlugin
+ * Function : 动态表名的问题，生成可操作表名的方法.
+ * Reason : 动态表名的问题，生成可操作表名的方法.
  */
 
 public class MyDynamicTableNamePlugin extends PluginAdapter {

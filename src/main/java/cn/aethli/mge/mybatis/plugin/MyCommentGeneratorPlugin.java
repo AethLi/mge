@@ -20,8 +20,7 @@ import static org.mybatis.generator.internal.util.StringUtility.isTrue;
  * 此类完全粘贴 mybatis-generator-1.3.2.jar文件中的类   org.mybatis.generator.internal.DefaultCommentGenerator
  * 修改点在  addFieldComment(Field field, IntrospectedTable introspectedTable, IntrospectedColumn introspectedColumn)  方法中
  *
- * @author wang
- */
+*/
 public class MyCommentGeneratorPlugin implements CommentGenerator {
 
     private Properties properties;
