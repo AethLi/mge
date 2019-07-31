@@ -4,8 +4,7 @@ package cn.aethli.mge.vo.enums.sql.operation;
  * SQL 操作 操作符部分，用于数据权限部分来限定动态SQL 的操作；
  * 数据权限部分增加 动态的数据权限规则（SQL部分）
  * 形如 (=)  相等操作 (like) 模糊匹配操作 值范围包含操作(in)
- * @author alexgaoyh
- *
+*
  */
 public enum SQLOperationModelEnum {
 

@@ -9,8 +9,6 @@ import java.util.List;
 
 /**
  * 生成实体类时，对整个类增加 Table 的注解部分
- * @author alexgaoyh
- *
  */
 public class MyTableAnnotationPlugin extends PluginAdapter {
 

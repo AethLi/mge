@@ -16,8 +16,7 @@ import java.util.Set;
 /**
  * 生成的 mapper 接口类部分，是需要继承基类文件的，并且添加泛型支持
  * 
- * @author alexgaoyh
- *
+*
  */
 public class InterFaceExtendsPlugin extends PluginAdapter {
 

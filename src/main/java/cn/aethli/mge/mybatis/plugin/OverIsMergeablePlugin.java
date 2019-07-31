@@ -10,9 +10,6 @@ import java.util.List;
 /**
  * 强制覆盖xml文件(注意这样每次都会生成新的mapper.xml会覆盖掉你编写的部分)
  * 利用反射设置isMergeable为false
- * 
- *
- *
  */
 public class OverIsMergeablePlugin extends PluginAdapter{
 	@Override

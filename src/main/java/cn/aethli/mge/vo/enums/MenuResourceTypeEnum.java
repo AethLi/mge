@@ -2,8 +2,6 @@ package cn.aethli.mge.vo.enums;
 
 /**
  * 后台管理权限-资源列表- 功能分类（菜单类别 按钮类别）
- * @author lenovo
- *
  */
 public enum MenuResourceTypeEnum {
 

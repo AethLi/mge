@@ -10,8 +10,6 @@ import java.util.Properties;
 /**
  * 分布式开发的话，Example对象也必须要序列化
  * 扩展一个 mybatis generator 插件，用于不仅仅在生成的实体类 还有 *Example 类都序列化
- * @author alexgaoyh
- *
  */
 public class SerializablePlugin extends PluginAdapter {  
   

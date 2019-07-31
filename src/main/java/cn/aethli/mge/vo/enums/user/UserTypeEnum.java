@@ -2,8 +2,6 @@ package cn.aethli.mge.vo.enums.user;
 
 /**
  * 用户 种类 划分 枚举类
- * @author wang
- *
  */
 public enum UserTypeEnum {
 

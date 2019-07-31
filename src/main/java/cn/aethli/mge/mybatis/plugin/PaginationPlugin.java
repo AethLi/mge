@@ -12,8 +12,7 @@ import java.util.List;
 
 /**
  * mybais mysql 分页相关，扩展  mybatis-generator-maven-plugin 插件功能，生成分页相关
- * @author alexgaoyh
- *
+*
  */
 public class PaginationPlugin extends PluginAdapter {
 

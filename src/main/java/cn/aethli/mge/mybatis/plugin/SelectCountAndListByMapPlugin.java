@@ -19,7 +19,6 @@ import java.util.List;
 public class SelectCountAndListByMapPlugin extends PluginAdapter {
 
     /**
-     * {@inheritDoc}
      */
     @Override
     public boolean validate(List<String> warnings) {
