@@ -1,7 +1,6 @@
 package cn.aethli.mge.mybatis.base;
 
 import cn.aethli.mge.utils.StringUtilss;
-import cn.aethli.mge.vo.enums.DeleteFlagEnum;
 import lombok.Data;
 
 import java.beans.Transient;
