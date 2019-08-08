@@ -11,7 +11,7 @@ import org.mybatis.generator.internal.util.StringUtility;
  * @author: Termite
  * @date: 2019-08-08 15:27
  **/
-public class CommentGeneratorPluginPlus extends DefaultCommentGenerator {
+public class mgeCommentGeneratorPlugin extends DefaultCommentGenerator {
 
     @Override
     public void addFieldComment(Field field,
