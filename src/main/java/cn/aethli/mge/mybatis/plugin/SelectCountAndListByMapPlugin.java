@@ -37,7 +37,7 @@ public class SelectCountAndListByMapPlugin extends PluginAdapter {
         return true;
     }
 
-    /*@Override
+    @Override
     public boolean sqlMapDocumentGenerated(Document document, IntrospectedTable introspectedTable) {
 
         // 形如 表名+别名  ： sys_sysman_resource sys_sysman_resource
@@ -296,7 +296,7 @@ public class SelectCountAndListByMapPlugin extends PluginAdapter {
         // ------------
 
         return super.sqlMapDocumentGenerated(document, introspectedTable);
-    }*/
+    }
 
     private Method generateSelectCountByMap(Method method, IntrospectedTable introspectedTable) {
 

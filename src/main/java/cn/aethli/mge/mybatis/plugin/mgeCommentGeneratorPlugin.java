@@ -7,6 +7,8 @@ import org.mybatis.generator.internal.DefaultCommentGenerator;
 import org.mybatis.generator.internal.util.StringUtility;
 
 /**
+ * 注释生成修改
+ *
  * @device: Hades
  * @author: Termite
  * @date: 2019-08-08 15:27
