@@ -18,8 +18,7 @@ import java.util.List;
 
 public class SelectCountAndListByMapPlugin extends PluginAdapter {
 
-    /**
-     */
+
     @Override
     public boolean validate(List<String> warnings) {
         return true;
@@ -40,10 +39,8 @@ public class SelectCountAndListByMapPlugin extends PluginAdapter {
     @Override
     public boolean sqlMapDocumentGenerated(Document document, IntrospectedTable introspectedTable) {
 
-        // 形如 表名+别名  ： sys_sysman_resource sys_sysman_resource
         String tableWithAliasName = introspectedTable.getAliasedFullyQualifiedTableNameAtRuntime();//数据库表名
 
-        // 形如 表名   ：  sys_sysman_resource
         String tableName = introspectedTable.getFullyQualifiedTableNameAtRuntime();
 
         String aliasName = tableWithAliasName.replaceFirst(tableName, "");

@@ -8,10 +8,7 @@ import org.mybatis.generator.api.dom.java.Method;
 import org.mybatis.generator.api.dom.java.TopLevelClass;
 import org.mybatis.generator.internal.util.StringUtility;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Properties;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 生成的 mapper 接口类部分，是需要继承基类文件的，并且添加泛型支持
@@ -20,16 +17,14 @@ import java.util.Set;
  */
 public class InterFaceExtendsPlugin extends PluginAdapter {
 
-	private Set<String> mappers = new HashSet<String>();
+	private Set<String> mappers = new HashSet<>();
 
 	@Override
 	public void setProperties(Properties properties) {
 		super.setProperties(properties);
 		String mappers = this.properties.getProperty("mappers");
 		if (StringUtility.stringHasValue(mappers)) {
-			for (String mapper : mappers.split(",")) {
-				this.mappers.add(mapper);
-			}
+			this.mappers.addAll(Arrays.asList(mappers.split(",")));
 		} else {
 			throw new RuntimeException("Mapper插件缺少必要的mappers属性!");
 		}
