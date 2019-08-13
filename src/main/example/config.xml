@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<database>
+    <table name="" commentary="">
+        <primaryKey name="" length="" type="" allowNull="" dotIndex=""/>
+        <column name="" length="" type="" allowNull="" dotIndex=""/>
+    </table>
+</database>

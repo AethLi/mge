@@ -9,6 +9,8 @@ import lombok.Data;
  **/
 @Data
 public class Table {
+    private String name;
+    private String commentary;
     private Iterable<Column> primaryKeys;
     private Iterable<Column> columns;
 }
