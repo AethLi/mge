@@ -1,4 +1,4 @@
-package cn.aethli.mge.mybatis.base;
+package cn.aethli.mge.base;
 
 import lombok.Data;
 

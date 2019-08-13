@@ -1,4 +1,4 @@
-package cn.aethli.mge.mybatis.plugin;
+package cn.aethli.mge.plugin;
 
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;

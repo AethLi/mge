@@ -1,4 +1,4 @@
-package cn.aethli.mge.mybatis.exception;
+package cn.aethli.mge.exception;
 
 /**
  * ClassName : MybatisPluginException
