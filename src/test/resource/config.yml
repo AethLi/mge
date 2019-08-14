@@ -1,0 +1,35 @@
+table:
+  - column:
+      - allowNull: true
+        dotIndex: 0
+        length: 20
+        name: userName
+        type: VARCHAR
+      - allowNull: true
+        dotIndex: 0
+        length: 20
+        name: password
+        type: VARCHAR
+      - allowNull: true
+        dotIndex: 0
+        length: 1
+        name: gender
+        type: INT
+      - allowNull: true
+        dotIndex: 0
+        length: 3
+        name: age
+        type: INT
+    commentary: 用户
+    name: user
+    primaryKey:
+      - allowNull: false
+        dotIndex: 0
+        length: 36
+        name: id
+        type: VARCHAR
+      - allowNull: false
+        dotIndex: 0
+        length: 11
+        name: phoneNum
+        type: VARCHAR

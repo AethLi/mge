@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<table>
+    <commentary>用户表</commentary>
+    <name>user</name>
+    <primaryKey>
+        <allowNull>false</allowNull>
+        <dotIndex>0</dotIndex>
+        <length>36</length>
+        <name>Id</name>
+        <type>VARCHAR</type>
+    </primaryKey>
+    <primaryKey>
+        <allowNull>false</allowNull>
+        <dotIndex>0</dotIndex>
+        <length>11</length>
+        <name>phoneNum</name>
+        <type>VARCHAR</type>
+    </primaryKey>
+    <column>
+        <allowNull>true</allowNull>
+        <dotIndex>0</dotIndex>
+        <length>20</length>
+        <name>userName</name>
+        <type>VARCHAR</type>
+    </column>
+    <column>
+        <allowNull>true</allowNull>
+        <dotIndex>0</dotIndex>
+        <length>20</length>
+        <name>password</name>
+        <type>VARCHAR</type>
+    </column>
+    <column>
+        <allowNull>true</allowNull>
+        <dotIndex>0</dotIndex>
+        <length>3</length>
+        <name>age</name>
+        <type>INT</type>
+    </column>
+    <column>
+        <allowNull>true</allowNull>
+        <dotIndex>0</dotIndex>
+        <length>20</length>
+        <name>gender</name>
+        <type>INT</type>
+    </column>
+</table>
+

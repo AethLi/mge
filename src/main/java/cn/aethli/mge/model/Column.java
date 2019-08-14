@@ -1,5 +1,6 @@
 package cn.aethli.mge.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 /**
@@ -11,9 +12,14 @@ import lombok.Data;
  **/
 @Data
 public class Column {
+    @JsonProperty(value = "name")
     private String name;
+    @JsonProperty(value = "length")
     private int length;
+    @JsonProperty(value = "type")
     private String type;
+    @JsonProperty(value = "allowNull")
     private Boolean allowNull;
+    @JsonProperty(value = "dotIndex")
     private int dotIndex;
 }

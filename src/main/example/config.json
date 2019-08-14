@@ -1,28 +1,26 @@
 {
-  "database": {
-    "table": [
-      {
-        "column": [
-          {
-            "allowNull": "",
-            "dotIndex": "",
-            "length": "",
-            "name": "",
-            "type": ""
-          }
-        ],
-        "commentary": "",
-        "name": "",
-        "primaryKey": [
-          {
-            "allowNull": "",
-            "dotIndex": "",
-            "length": "",
-            "name": "",
-            "type": ""
-          }
-        ]
-      }
-    ]
-  }
+  "table": [
+    {
+      "column": [
+        {
+          "allowNull": "",
+          "dotIndex": "",
+          "length": "",
+          "name": "",
+          "type": ""
+        }
+      ],
+      "commentary": "",
+      "name": "",
+      "primaryKey": [
+        {
+          "allowNull": "",
+          "dotIndex": "",
+          "length": "",
+          "name": "",
+          "type": ""
+        }
+      ]
+    }
+  ]
 }
