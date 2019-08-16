@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <table>
-    <commentary>用户表</commentary>
+    <comment>用户表</comment>
     <name>user</name>
     <primaryKey>
         <allowNull>false</allowNull>

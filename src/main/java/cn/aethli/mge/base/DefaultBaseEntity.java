@@ -10,7 +10,7 @@ import java.io.Serializable;
  * @author aethli
  */
 @Data
-public class BaseEntity implements Serializable {
+public class DefaultBaseEntity implements Serializable {
 
     /**
      *

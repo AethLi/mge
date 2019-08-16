@@ -2,12 +2,16 @@ package cn.aethli.mge;
 
 import cn.aethli.mge.model.Database;
 import cn.aethli.mge.model.Table;
+import cn.aethli.mge.run.SqlGenerate;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.javaprop.JavaPropsFactory;
 import com.fasterxml.jackson.dataformat.xml.XmlFactory;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
 import java.io.File;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.FutureTask;
 
 /**
  * @device: Hades
@@ -45,7 +49,11 @@ public class MgeStarter {
         Database db = objectMapper.readValue(config, Database.class);
         StringBuilder sqlBuilder = new StringBuilder();
         for (Table t : db.getTables()) {
-
+            ExecutorService executor = Executors.newCachedThreadPool();
+            SqlGenerate sqlGenerate = new SqlGenerate(t);
+            FutureTask<String> futureTask = new FutureTask<String>(sqlGenerate);
+            executor.submit(futureTask);
+            executor.shutdown();
         }
     }
 }

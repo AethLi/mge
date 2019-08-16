@@ -12,8 +12,8 @@ import lombok.Data;
 public class Table {
     @JsonProperty(value = "name")
     private String name;
-    @JsonProperty(value = "commentary")
-    private String commentary;
+    @JsonProperty(value = "comment")
+    private String comment;
     @JsonProperty(value = "primaryKey")
     private Iterable<Column> primaryKeys;
     @JsonProperty(value = "column")

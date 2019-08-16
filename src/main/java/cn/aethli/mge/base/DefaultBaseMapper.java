@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @param <T> 泛型类
  */
-public interface BaseMapper<T> {
+public interface DefaultBaseMapper<T> {
 
     /**
      * 根据map集合，查询符合条件的资源总数

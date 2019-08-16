@@ -20,7 +20,7 @@ table:
         length: 3
         name: age
         type: INT
-    commentary: 用户
+    comment: 用户
     name: user
     primaryKey:
       - allowNull: false

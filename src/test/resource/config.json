@@ -1,7 +1,7 @@
 {
   "table": [
     {
-      "commentary": "用户表",
+      "comment": "用户表",
       "name": "user",
       "primaryKey": [
         {

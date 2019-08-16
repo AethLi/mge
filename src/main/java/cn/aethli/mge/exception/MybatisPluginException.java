@@ -9,12 +9,6 @@ package cn.aethli.mge.exception;
 
 public class MybatisPluginException extends RuntimeException {
 
-
-    /**
-     * serialVersionUID :
-     */
-    private static final long serialVersionUID = -6546516164L;
-
     public MybatisPluginException() {
         super();
     }

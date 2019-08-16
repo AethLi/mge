@@ -5,7 +5,7 @@ table:
         length: ''
         name: ''
         type: ''
-    commentary: ''
+    comment: ''
     name: ''
     primaryKey:
       - allowNull: ''
