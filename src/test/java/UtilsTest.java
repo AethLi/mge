@@ -10,7 +10,7 @@ public class UtilsTest {
     @Test
     public void jsonUtilsTest() {
         try {
-            MgeStarter.start(this.getClass().getResource("/config.yml").getPath());
+            MgeStarter.start(this.getClass().getResource("config.yml").getPath());
         } catch (Exception e) {
             e.printStackTrace();
         }
